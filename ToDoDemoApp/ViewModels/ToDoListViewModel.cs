@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using ToDoDemoApp.Helpers;
 using Dapper;
-using System.Data.SqlClient;
 using ToDoDemoApp.Models;
 
 namespace ToDoDemoApp.ViewModels
