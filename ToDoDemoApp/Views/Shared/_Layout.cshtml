@@ -1,0 +1,30 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>TODO List Demo Application</title>
+    <script src="https://kit.fontawesome.com/7f9c0de4e3.js" crossorigin="anonymous"></script>
+    <link href="@Url.Content("~/Content/Main.css")" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <h1>Welcome to this awesome website with a ToDo list</h1>
+    </header>
+    @RenderBody()
+    <footer>
+       Made by: Katalina Kivinen in May 2020 for Digitalent
+    </footer>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+</body>
+</html>
